@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200412180754_Initial.cs" />
+    <Compile Remove="Migrations\20200412180754_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200415195526_ReviewDataAnnotations.cs" />
+    <Compile Remove="Migrations\20200415195526_ReviewDataAnnotations.Designer.cs" />
+    <Compile Remove="Migrations\20200415200934_ReviewNullableDates.cs" />
+    <Compile Remove="Migrations\20200415200934_ReviewNullableDates.Designer.cs" />
+    <Compile Remove="Migrations\20200417200528_UserModelCreated.cs" />
+    <Compile Remove="Migrations\20200417200528_UserModelCreated.Designer.cs" />
+    <Compile Remove="Migrations\20200417203411_UserModelNullable.cs" />
+    <Compile Remove="Migrations\20200417203411_UserModelNullable.Designer.cs" />
+    <Compile Remove="Migrations\20200417203752_UserModel.cs" />
+    <Compile Remove="Migrations\20200417203752_UserModel.Designer.cs" />
+    <Compile Remove="Migrations\20200428190525_UserEmailAdded.cs" />
+    <Compile Remove="Migrations\20200428190525_UserEmailAdded.Designer.cs" />
+    <Compile Remove="Migrations\20200428193836_AddRoleToUser.cs" />
+    <Compile Remove="Migrations\20200428193836_AddRoleToUser.Designer.cs" />
+    <Compile Remove="Migrations\20200428194045_AddRequiredUserRole.cs" />
+    <Compile Remove="Migrations\20200428194045_AddRequiredUserRole.Designer.cs" />
+    <Compile Remove="Migrations\20200428195054_UserRole.cs" />
+    <Compile Remove="Migrations\20200428195054_UserRole.Designer.cs" />
+    <Compile Remove="Migrations\20200430111400_UserGeneralization.cs" />
+    <Compile Remove="Migrations\20200430111400_UserGeneralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430112059_UserGeneralization.cs" />
+    <Compile Remove="Migrations\20200430112059_UserGeneralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430112202_UserGeneralization.cs" />
+    <Compile Remove="Migrations\20200430112202_UserGeneralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430112628_UserGeneralization.cs" />
+    <Compile Remove="Migrations\20200430112628_UserGeneralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430112748_UserGeneralization.cs" />
+    <Compile Remove="Migrations\20200430112748_UserGeneralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430112827_UserGeneralization.cs" />
+    <Compile Remove="Migrations\20200430112827_UserGeneralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430113312_Initial.cs" />
+    <Compile Remove="Migrations\20200430113312_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200430113627_UserGenaralization.cs" />
+    <Compile Remove="Migrations\20200430113627_UserGenaralization.Designer.cs" />
+    <Compile Remove="Migrations\20200430150104_ForeignKeysRenamed.cs" />
+    <Compile Remove="Migrations\20200430150104_ForeignKeysRenamed.Designer.cs" />
+    <Compile Remove="Migrations\20200430151611_NullableReviewConfirmedBy.cs" />
+    <Compile Remove="Migrations\20200430151611_NullableReviewConfirmedBy.Designer.cs" />
+    <Compile Remove="Migrations\20200430154414_NullableReviewConfirmedBy.cs" />
+    <Compile Remove="Migrations\20200430154414_NullableReviewConfirmedBy.Designer.cs" />
+    <Compile Remove="Migrations\20200430161538_Initial.cs" />
+    <Compile Remove="Migrations\20200430161538_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200430162436_Initial.cs" />
+    <Compile Remove="Migrations\20200430162436_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20200430163518_Initial.cs" />
+    <Compile Remove="Migrations\20200430163518_Initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+  </ItemGroup>
+
+</Project>
